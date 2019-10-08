@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript: Test Your Knowledge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main>
+        <section id="score" class="scoreStyle initiallyHidden">
+            <p>Score: <span class="counter">0</span></p>
+        </section>
+        <div class="mainBox">
+            <section id="intro">
+                <h1>JavaScript: Test Your Knowledge</h1>
+                <p>Welcome to JavaScript: Test Your Knowledge. This is where you can test your understanding of various concepts covered in the Juno College of Technology's Accelerated JavaScript course.</p>
+                <a href="#">
+                    <button id="goToTitleOne">Let's Go!</button>
+                </a>
+            </section>
+            <section id="moduleOneTitle" class= "initiallyHidden">
+                <h1>Module 1: Intro to JavaScript</h1>
+                <a href="#">
+                    <button id="goToQuestionOne">Next ></button>
+                </a>
+            </section>
+            <section id="moduleOneQuestion" class="initiallyHidden">
+                <p class="question">1. JavaScript defines:</p>
+                <div class="answerContainer">
+                    <div class="answerBox wrongOne">
+                        <p>the content</p>
+                    </div>
+                    <div class="answerBox wrongOne">
+                        <p>the presentation</p>
+                    </div>
+                    <div 
+                        class="answerBox rightOne right">
+                        <p>the behaviour & functionality</p>
+                    </div>
+                </div>
+            </section>
+            <section id="moduleTwoTitle" class="initiallyHidden">
+                <h1>Module 2: Basic JavaScript</h1>
+                <a href="#">
+                    <button id="goToQuestionTwo">Next ></button>
+                </a>
+            </section>
+            <section id="moduleTwoQuestion" class="initiallyHidden">
+                <p class="question">2. If const cow = "mammal" and const feet = 4, cow === "mammal" && feet > 6 will return:</p>
+                <div class="answerContainer">
+                    <div class="answerBox wrongTwo">
+                        <p>true</p>
+                    </div>
+                    <div class="answerBox rightTwo right">
+                        <p>false</p>
+                    </div>
+                </div>
+            </section>
+            <section id="moduleThreeTitle" class="initiallyHidden">
+                <h1>Module 3: Functions</h1>
+                <a href="#">
+                    <button id="goToQuestionThree">Next ></button>
+                </a>
+            </section>
+            <section id="moduleThreeQuestion" class="initiallyHidden">
+                <p class="question">3. Proper syntax for defining an arrow function? </p>
+                <div class="answerContainer">
+                    <div class="answerBox rightThree right">
+                        <p>const nameOfFunction = () =></p>
+                    </div>
+                    <div class="answerBox wrongThree">
+                        <p>nameOfFunction() = =></p>
+                    </div>
+                    <div class="answerBox wrongThree">
+                        <p>const nameOfFunction ==> ()</p>
+                    </div>
+                </div>
+            </section>
+            <section id="moduleFourTitle" class="initiallyHidden">
+                <h1>Module 4: Data Structures - Objects & Arrays</h1>
+                <a href="#">
+                    <button id="goToQuestionFour">Next ></button>
+                </a>
+            </section>
+            <section id="moduleFourQuestion" class="initiallyHidden">
+                <p class="question">4. Which of the following is correct? </p>
+                <div class="answerContainer">
+                    <div class="answerBox rightFour right">
+                        <p>Primitive types are passed by value, objects are passed by reference.</p>
+                    </div>
+                    <div class="answerBox wrongFour">
+                        <p>Objects are passed by value, primitive types are passed by reference.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="moduleFiveTitle" class="initiallyHidden">
+                <h1>Module 5: The DOM & Browser Events</h1>
+                <a href="#">
+                    <button id="goToQuestionFive">Next ></button>
+                </a>
+            </section>
+            <section id="moduleFiveQuestion" class="initiallyHidden">
+                <p class="question">5. Which of the following is using Vanilla JavaScript? </p>
+                <div class="answerContainer">
+                    <div class="answerBox wrongFive">
+                        <p>$('selector').on('click', () =></p>
+                    </div>
+                    <div class="answerBox rightFive right">
+                        <p>document.querySelector</br>('selector').addEventListener</br>(event, () =></p>
+                    </div>
+                </div>
+            </section>
+            <section id="moduleSixTitle" class="initiallyHidden">
+                <h1>Module 6: Workflow & Tooling</h1>
+                <a href="#">
+                    <button id="goToQuestionSix">Next ></button>
+                </a>
+            </section>
+            <section id="moduleSixQuestion" class="initiallyHidden">
+                <p class="question">6. Which will return a list of folders and all files you can interact with inside the current directory? </p>
+                <div class="answerContainer">
+                    <div class="answerBox wrongSix">
+                        <p>li</p>
+                    </div>
+                    <div class="answerBox rightSix right">
+                        <p>ls</p>
+                    </div>
+                </div>
+            </section>
+            <section id="moduleSevenTitle" class="initiallyHidden">
+                <h1>Module 7: Code Architecture</h1>
+                <a href="#">
+                    <button id="goToQuestionSeven">Next ></button>
+                </a>
+            </section>
+            <section id="moduleSevenQuestion" class="initiallyHidden">
+                <p class="question">7. It is a good idea to use the DOM as the source of truth for the state of your application </p>
+                <div class="answerContainer">
+                    <div class="answerBox wrongSeven">
+                        <p>true</p>
+                    </div>
+                    <div class="answerBox rightSeven right">
+                        <p>false</p>
+                    </div>
+                </div>
+            </section>
+            <section id="moduleEightTitle" class="initiallyHidden">
+                <h1>Module 8: Asynchronous JavaScript</h1>
+                <a href="#">
+                    <button id="goToQuestionEight">Next ></button>
+                </a>
+            </section>
+            <section id="moduleEightQuestion" class="initiallyHidden">
+                <p class="question">8. Which of the following is correct?</p>
+                <div class="answerContainer">
+                    <div class="answerBox wrongEight">
+                        <p>POST requests data, GET creates new data, DELETE removes data</p>
+                    </div>
+                    <div class="answerBox rightEight right">
+                        <p>GET requests data, POST creates new data, PUT updates data</p>
+                    </div>
+                    <div class="answerBox wrongEight">
+                        <p>POST requests data, GET creates new data, PUT updates data</p>
+                    </div>
+                </div>
+            </section>
+            <section id="end" class="initiallyHidden">
+                <h1>You've reached the end!</h1>
+                <h2>Your Score is: <span class="counter">0</span>/8, or <span class="scorePercentage">0</span>%</h2>
+                <h2 id="perfectScore" class="initiallyHidden">Congratulations!</h2>
+            </section>
+        </div>
+    </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
